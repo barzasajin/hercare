@@ -1,7 +1,8 @@
-﻿import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
+import MobileBottomNav from "./components/MobileBottomNav";
 import Dashboard from "./pages/Dashboard";
 import CycleTracker from "./pages/CycleTracker";
 import HealthLog from "./pages/HealthLog";
@@ -56,6 +57,7 @@ export default function App() {
           </Routes>
         </main>
       </div>
+      <MobileBottomNav />
     </div>
   );
 }

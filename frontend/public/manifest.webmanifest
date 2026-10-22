@@ -1,0 +1,18 @@
+{
+  "name": "HerCare AI — Women's Health & Cycle Intelligence",
+  "short_name": "HerCare AI",
+  "description": "Smart, privacy-first menstrual cycle tracking, symptom intelligence, and wellness companion.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F6",
+  "theme_color": "#F43F5E",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

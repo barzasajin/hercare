@@ -1,0 +1,10 @@
+{
+  "appId": "ai.hercare.app",
+  "appName": "HerCare AI",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}
